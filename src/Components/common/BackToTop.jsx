@@ -31,7 +31,7 @@ const BackToTopButton = () => {
   return (
     <div className="fixed bottom-5 right-4 z-10">
       <div
-        className={`back-to-top-button ${isVisible ? "show" : "hide"} cursor-pointer`}
+        className={`back-to-top-button ${isVisible ? "" : "hidden"} cursor-pointer`}
         onClick={scrollToTop}
       >
         <img src="/up-arrow.png" alt="Home" className="w-8" />

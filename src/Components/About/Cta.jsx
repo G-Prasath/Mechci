@@ -16,12 +16,12 @@ const Cta = () => {
           <p className="text-lg mb-8">
             Jadilah bagian dari komunitas kami dan nikmati manfaat eksklusif.
           </p>
-          <div>
+          <div className="flex gap-x-8 justify-center">
             <Link
               href="https://github.com/idugeni"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-neutral btn-wide"
+              className="btn btn-neutral btn-wide border border-white px-5 py-2"
             >
               WhatsApp
             </Link>
@@ -29,9 +29,9 @@ const Cta = () => {
               href="https://github.com/idugeni"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-neutral btn-wide"
+              className="btn btn-neutral btn-wide border border-white px-5 py-2"
             >
-              WhatsApp
+              Call
             </Link>
           </div>
         </div>

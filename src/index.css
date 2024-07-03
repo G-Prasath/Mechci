@@ -5,3 +5,24 @@
 body{
     overflow-x: hidden;
 }
+
+.banner-bg {
+    background-image: linear-gradient(
+        rgba(209, 209, 209, 0.32) 2px,
+        transparent 2px
+      ),
+      linear-gradient(to right, rgba(209, 209, 209, 0.32) 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: #ffffff;
+  }
+
+  .bt-color{
+    background-color: #0000ff;
+  }
+  
+  .back{
+    background: url(../public/bg.jpg);
+  }
+  .card-bg{
+    background-color: #f6f3f3;
+  }

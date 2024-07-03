@@ -14,30 +14,30 @@ const Footer = () => {
             <img src="/logo.png" alt="Pagedone Logo" className="w-[70px]" />
           </Link>
           <div className="flex items-center gap-4">
-            <a
-              href="https://facebook.com"
+            <Link
+              to="https://facebook.com"
               className="p-2 rounded-full bg-white text-gray-700 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus:outline-none"
             >
               <FaFacebookF />
-            </a>
-            <a
-              href="https://instagram.com"
+            </Link>
+            <Link
+              to="https://instagram.com"
               className="p-2 rounded-full bg-white text-gray-900 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus:outline-none"
             >
               <FaInstagram />
-            </a>
-            <a
-              href="https://twitter.com"
+            </Link>
+            <Link
+              to="https://twitter.com"
               className="p-2 rounded-full bg-white text-gray-700 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus:outline-none"
             >
               <FaXTwitter />
-            </a>
-            <a
-              href="https://youtube.com"
+            </Link>
+            <Link
+              to="https://youtube.com"
               className="p-2 rounded-full bg-white text-gray-700 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus:outline-none"
             >
               <FaLinkedinIn />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="py-14 flex flex-col lg:flex-row justify-between gap-8 border-b border-gray-500">
@@ -48,36 +48,36 @@ const Footer = () => {
               </h6>
               <ul className="flex flex-col max-lg:items-center gap-6">
                 <li>
-                  <a
-                    href="/home"
+                  <Link
+                    to="/home"
                     className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/about"
+                  <Link
+                    to="/about"
                     className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/pricing"
+                  <Link
+                    to="/pricing"
                     className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Career
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/pro-version"
+                  <Link
+                    to="/pro-version"
                     className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Contact us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -87,36 +87,36 @@ const Footer = () => {
               </h6>
               <ul className="flex flex-col gap-6 max-lg:items-center">
                 <li>
-                  <a
-                    href="/figma-ui-system"
+                  <Link
+                    to="/figma-ui-system"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Engineering Design
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/icons-assets"
+                  <Link
+                    to="/icons-assets"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Employment-HR
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/responsive-blocks"
+                  <Link
+                    to="/responsive-blocks"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Engineering Design & Manufacturing Support
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/components-library"
+                  <Link
+                    to="/components-library"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Education - CAD/CAM, Piping & PDS
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -126,28 +126,28 @@ const Footer = () => {
               </h6>
               <ul className="flex flex-col gap-6 max-lg:items-center">
                 <li>
-                  <a
-                    href="/faqs"
+                  <Link
+                    to="/faqs"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Clients
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/quick-start"
+                  <Link
+                    to="/quick-start"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/documentation"
+                  <Link
+                    to="/documentation"
                     className="text-base font-normal text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus:outline-none"
                   >
                     Gallery
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -167,10 +167,10 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-5 pt-7">
           <span className="text-sm font-normal text-gray-400">
-            <a href="https://pagedone.io/" className="">
-              ©pagedone
-            </a>{" "}
-            2023, All rights reserved.
+            <Link to="/" className="">
+              Mechci CADD &copy;
+            </Link>
+            2024, All rights reserved.
           </span>
         </div>
       </div>

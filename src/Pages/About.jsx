@@ -5,7 +5,6 @@ import AboutOne from '../Components/About/AboutOne'
 import AboutTwo from '../Components/About/AboutTwo'
 import OurTeam from '../Components/About/OurTeam'
 import Gallery from '../Components/About/Gallery'
-import Clients from '../Components/About/Clients'
 import WhyChoose from '../Components/About/WhyChoose'
 import Cta from '../Components/About/Cta'
 
@@ -19,7 +18,6 @@ const About = () => {
       <OurTeam/>
       <Gallery/>
       <Cta/>
-      <Clients/>
 
     </>
   )

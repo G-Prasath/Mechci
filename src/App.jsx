@@ -17,6 +17,7 @@ import ContactUs from './Pages/ContactUs'
 import Career from './Pages/Career'
 import ScrollToTop from './Components/common/ScrollTop';
 import BackToTopButton from './Components/common/BackToTop';
+import Clients from './Components/common/Clients';
 
 
 
@@ -40,6 +41,7 @@ const App = () => {
           </Routes>
         </React.Suspense>
         <BackToTopButton />
+        <Clients/>
         <Footer />
       </Router>
     </HelmetProvider>
